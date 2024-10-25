@@ -1,0 +1,26 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+
+@font-face {
+    font-family: avengers;
+    src: url(fonts/AVENGEANCE\ HEROIC\ AVENGER\ BI.ttf);
+}
+
+h1 {
+    font-family: avengers;
+}
+
+.cajaAvengers {
+    display: block;
+    width: 30vw;
+}
+
+.moverHulk {
+    position: inherit;
+    right: 500px;
+
+}
